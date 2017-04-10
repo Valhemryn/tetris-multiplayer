@@ -1,0 +1,36 @@
+/* Styles.scss */
+
+
+/* Config */
+
+.awesome {
+    background: #fff;
+}
+
+
+/* Global */
+
+body {
+    align-content: center;
+    align-items: center;
+    background: #202028;
+    color: #fff;
+    font-size: 2em;
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+    margin: 0;
+}
+
+.player {
+    flex: 1 1 auto;
+}
+
+canvas {
+    border: 1px solid #fff;
+    border-left: none;
+    border-right: none;
+    image-rendering: pixelated;
+    height: 90%;
+    margin: 0 auto;
+}
